@@ -1,45 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naima's CS50 Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Naima's CS50 Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Naima, a passionate developer who has completed the CS50 course. Here are some of the projects I worked on during the course.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Scratch Project</h3>
-            <p>A simple game or interactive story created using Scratch.</p>
-            <p><strong>Technologies Used:</strong> Scratch</p>
-            <a href="https://github.com/Naima925/scratch-project">Source Code</a>
-        </div>
-        <div class="project">
-            <h3>Hello (C)</h3>
-            <p>Your first C program.</p>
-            <p><strong>Technologies Used:</strong> C</p>
-            <a href="https://github.com/Naima925/hello-c">Source Code</a>
-        </div>
-        <!-- Repeat for each project -->
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:naima@example.com">naima@example.com</a></p>
-    </section>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
